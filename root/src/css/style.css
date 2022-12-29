@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+
+  }
+
+  header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 10;
+    padding: 12px;
+    opacity: 0.8;
+    
+  }
+  
+  .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .logo img {
+    width: 30px;
+  }
+
+  #banner {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+
+  }
+
+  .datas{
+    padding-left: 10px;
+    
+  }
+
+  table tr td{
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+   /* ESTILO DO H2 DAS DATAS ENTRAS  E SAIDAS*/
+
+    h2{
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
+    margin: 2% 0 1% 5%;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+
+  /* ESTILO DAS DATAS ENTRAS  E SAIDAS*/
+
+.forneca_datas{
+    padding-top: 10px;
+
+}
+
+ /* ESTILO ESCOLHA SEU QUARTO*/
+
+h3{
+  font-family: 'Lobster', cursive;
+  font-size: 16px;
+  margin: 2% 0 0 5%;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+ /* ESTILO DO QUARTO EXECUTIVO*/
+
+ .quarto_executivo{
+  display: flex;
+
+}
+
+.sp_executive{
+  font-size: 22px;
+  position: relative;
+  margin: 40% 0% 0% 19%;
+  
+ }
+
+
+.quarto_executivo img{
+  padding-left: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.quarto_executivo p{
+  padding-left: 12px;
+  line-break: loose;
+  line-height: 20px;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.label_quarto_executivo{
+  padding-left: 250px;
+  margin: 0% 0% 5% 0%;
+}
+
+input[type=radio] {
+  accent-color: rgb(26, 0, 128);
+}
+
+
+
+/* ESTILO DA RESERVA CLASSIC */
+
+.quarto_classic{
+  display: flex;
+}
+
+.sp_classic{
+  font-size: 22px;
+  position: relative;
+  margin: 40% 0% 0% 19%;
+
+ }
+
+
+.quarto_classic img{
+  padding-left: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.quarto_classic p{
+  padding-left: 12px;
+  line-break: loose;
+  line-height: 20px;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+
+.label_quarto_classic {
+  padding-left: 250px;
+  margin: 0% 0% 5% 0%;
+}
+
+input[type=radio] {
+  accent-color: rgb(26, 0, 128);
+}
+
+
+
+
+/* ESTILO DA RESERVA PREMIUM*/
+
+.quarto_premium{
+  display: flex;
+}
+
+.sp_premium{
+  font-size: 22px;
+  position: relative;
+  margin: 40% 0% 0% 19%;
+}
+
+.quarto_premium img{
+  padding-left: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.quarto_premium p{
+  padding-left: 12px;
+  line-break: loose;
+  line-height: 20px;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.label_quarto_premium {
+  padding-left: 250px;
+
+}
+
+input[type=radio] {
+  accent-color: rgb(26, 0, 128);
+}
+
+
+
+
+/* ESTILO DO RESUMO DA RESERVA*/
+@media(max-width: 850px) {
+  .resumo_reserva_article{
+    width: 700px;
+  }
+}
+
+@media(max-width: 690px) {
+  .resumo_reserva_article{
+    width: 590px;
+  }
+}
+
+
+
+@media(max-width: 590px) {
+  .resumo_reserva_article{
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .resumo_reserva_article{
+    width: 400px;
+  }
+}
+@media(max-width: 400px) {
+  .resumo_reserva_article{
+    width: 300px;
+  }
+}
+
+
+
+@media(max-width: 300px) {
+  .resumo_reserva_article{
+    width: 250px;
+  }
+}
+
+
+.resumo_reserva_article{
+  float: right;
+  position: relative;
+  top: -40px;
+}
+
+.resumo_reserva{
+  width: 400px;
+  height: 600px;
+  border: solid black 2px;
+
+}
+
+
+.resumo_reserva div {
+  width: 300px;
+  height: 300px;
+  border: solid black 2px;
+  margin: 20% 5% 2% 6%;
+}
+
+
+
+
+ a{
+  margin: 1% 0 1% 8%;
+}
+
+button{
+  width: 150px;
+  height: 25px;
+  margin: 1% 0 1% 35%;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(168, 154, 154);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.sp_resumo{
+  font-size: 18px;
+  text-transform: uppercase;
+  position: relative;
+  top: 65px;
+  padding-left: 22px;
+}
+
+.resumo_reserva span{
+  position: relative;
+  top: 55px;
+  padding: 15px;
+  font-size: 25px;
+}

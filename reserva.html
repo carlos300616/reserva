@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL H</title>
+    <link rel="stylesheet" href="root/src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2? family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a>
+                <img src="root/images/LOGO H branco.png" alt="logo">
+                <span>Hotel H</span>
+            </a>
+        </div>
+        
+    </header>
+
+    <main>
+        <section id="banner">
+            <video autoplay muted loop>
+                <source src="root/videos/Hotel H.mp4" type="video/mp4">
+            </video>
+        </section>
+
+
+            <article>
+                <nav class="datas">
+                    
+                        <h2>Minha Reserva</h2>
+                        <nav class="forneca_datas">Forneca a data de entrada, saída e quantidade de pessoas</nav>
+                        <table>
+                            
+                            <tr>
+                                <td >
+                                    <label for="data_entrada">Data de entrada</label>
+                                    <input type="date" name="data_entrada" id="data_entrada">
+                                </td>
+            
+                                <td>
+                                    <label for="data_saida">Data de saída</label>
+                                    <input type="date" name="data_saida" id="data_saida">
+                                </td>
+            
+                                <td>
+                                    <form onforminput="pessoas.value=qtd.value">
+                                        <label for="">Quantidade de pessoas</label>
+                                        <input type="number" name="pessoas" id="pessoas" max="100" min="1" value="1">              
+                                    </form>
+                                </td>
+                            </tr>
+            
+                        </table>      
+                        
+                </nav><br>
+                <h3>Escolha o Quarto</h3><br>
+            </article>
+
+        <section > 
+                <article>
+                    <span class="sp_executive">Executive</span> 
+                    <div class="quarto_executivo">
+                        <img src="root/images/reserva_executivo.jpeg" alt="quarto executivo">
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                            Nam inventore veniam non odio voluptatibus, tempore assumenda <br>
+                            itaque ipsa commodi dolor facilis quis voluptas ipsam maiores <br>
+                            vero delectus possimus a. <br>
+                            Veniam officia dolores sed, repellat debitis explicabo dolore molesti<br><br>
+
+                            <R1> R$190,00</R1>
+                        </p>
+                        
+                    </div>
+
+                    <div class="label_quarto_executivo">
+                        <label for="selecione">Selecione o apartamento Executive</label><br>
+                        <input type="radio" name="selecione" id="selecione_executive">
+                    </div><br>
+
+                </article>   
+
+
+            
+                <article class="resumo_reserva_article">
+                    
+                        <div class="resumo_reserva">
+                            <h6 class="sp_resumo"> <strong>Resumo da reserva</strong> </h6>
+                            <div>
+                                <span >Apartamento: xxxxxx</span><br><br>
+                                <span>Checkin: xxx</span><br>
+                                <span>Checkout: xxx</span><br><br>
+                                <span>Pessoas: xx</span>
+                            </div>
+        
+                            <a href="#">Adicionar mais serviços</a><br><br>
+        
+                            <button>Continuar</button>
+        
+                        </div>
+        
+                </article>
+
+                <article>
+                    <span class="sp_classic">Classic</span>
+
+                    <div class="quarto_classic">
+                        <img src="root/images/reserva_classic.jpg" alt="quarto executivo">
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                            Nam inventore veniam non odio voluptatibus, tempore assumenda <br>
+                            itaque ipsa commodi dolor facilis quis voluptas ipsam maiores <br>
+                            vero delectus possimus a. <br>
+                            Veniam officia dolores sed, repellat debitis explicabo dolore molesti<br><br>
+
+                            <R1> R$190,00</R1>
+                        </p>
+                        
+                        
+                    </div>
+
+                    <div class="label_quarto_classic">
+                        <label for="selecione">Selecione o apartamento Classic</label><br>
+                        <input type="radio" name="selecione" id="selecione_classic">
+                    </div>
+                </article>   
+
+                
+                <article>
+                    <span class="sp_premium">Premium</span>
+
+                    <div class="quarto_premium">
+                        <img src="root/images/reserva_premium.jpeg" alt="quarto executivo">
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                            Nam inventore veniam non odio voluptatibus, tempore assumenda <br>
+                            itaque ipsa commodi dolor facilis quis voluptas ipsam maiores <br>
+                            vero delectus possimus a. <br>
+                            Veniam officia dolores sed, repellat debitis explicabo dolore molesti<br><br>
+
+                            <R1> R$190,00</R1>
+                        </p>
+                        
+                        
+                    </div>
+
+                    <div class="label_quarto_premium">
+                        <label for="selecione">Selecione o apartamento Premium</label><br>
+                        <input type="radio" name="selecione" id="selecione_premium">
+                    </div>
+                </article>   
+                
+        </section><br><br>
+    </main>
+
+    <footer >
+        <table style="position: relative; left: 10px; text-align: center; width: 100%;">
+            
+
+                <td>
+                    <label for="ajuda">Precisa de ajuda? <br></label>
+                    <textarea name="ajuda" id="" cols="30" rows="10"></textarea>
+                </td>
+
+                <td style="background-color: blue;">
+                    <a href="#"><img src="root/images/icons8-facebook-novo.svg" alt="icone facebook"></a>
+                    <a href="#"><img src="root/images/icons8-instagram.svg" alt="icone do instagram"></a>
+                    <a href="#"><img src="root/images/icons8-whatsapp.svg" alt="icone do whatsapp"></a>
+                </td>
+            
+
+        </table>
+    </footer>
+
+
+    
+</body>
+</html>
